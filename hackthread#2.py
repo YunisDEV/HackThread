@@ -7,7 +7,6 @@ import re
 import sys
 
 
-
 if __name__ == '__main__':
     n = int(input())
 
@@ -16,6 +15,6 @@ if __name__ == '__main__':
     result = []
 
     for i in arr:
-        result.insert(0,i)
+        result.insert(0, i)
 
-    print(' '.join(map(str,result)))
+    print(' '.join(map(str, result)))
